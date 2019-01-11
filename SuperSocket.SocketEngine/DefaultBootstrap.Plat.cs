@@ -122,13 +122,13 @@ namespace SuperSocket.SocketEngine
         }
     }
 #else
-    public partial class DefaultBootstrap
-    {
-        partial void SetDefaultCulture(SocketBase.Config.IRootConfig rootConfig)
-        {
-            if (!string.IsNullOrEmpty(rootConfig.DefaultCulture))
-                CultureInfo.DefaultThreadCurrentCulture = new CultureInfo(rootConfig.DefaultCulture);
-        }
-    }
+    //public partial class DefaultBootstrap
+    //{
+    //    partial void SetDefaultCulture(SocketBase.Config.IRootConfig rootConfig)
+    //    {
+    //        if (!string.IsNullOrEmpty(rootConfig.DefaultCulture))
+    //            CultureInfo.DefaultThreadCurrentCulture = new CultureInfo(rootConfig.DefaultCulture);
+    //    }
+    //}
 #endif
 }

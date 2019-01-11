@@ -8,6 +8,7 @@ using System.Collections.Specialized;
 
 namespace SuperSocket.SocketEngine.Configuration
 {
+    /*
 #if NETSTANDARD2_0
     public partial class SocketServiceConfig : ConfigurationRoot, SuperSocket.SocketBase.Config.IConfigurationSource
     {
@@ -98,4 +99,5 @@ namespace SuperSocket.SocketEngine.Configuration
         }
     }
 #endif
+*/
 }

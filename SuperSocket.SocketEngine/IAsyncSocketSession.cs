@@ -4,6 +4,7 @@ using System.Net.Sockets;
 
 namespace SuperSocket.SocketEngine
 {
+    /*
     interface IAsyncSocketSessionBase : ILoggerProvider
     {
         SocketAsyncEventArgsProxy SocketAsyncProxy { get; }
@@ -15,4 +16,5 @@ namespace SuperSocket.SocketEngine
     {
         void ProcessReceive(SocketAsyncEventArgs e);
     }
+    */
 }
